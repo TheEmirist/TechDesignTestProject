@@ -4,8 +4,7 @@ using UnityEngine;
 
 public class ButtonController : MonoBehaviour
 {
-    public GameObject button;
-    // Start is called before the first frame update
+    [SerializeField] private GameObject button;
 
     void OnMouseDown()
     {
