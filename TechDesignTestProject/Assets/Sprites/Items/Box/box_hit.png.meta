@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 1ad81f1d94af51641a8c11163387f7c6
+guid: 367892dc7b45c164cafd726602c33d01
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 24
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -129,13 +129,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: On (32x10)_0
+      name: box_hit_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 32
-        height: 10
+        width: 28
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -143,20 +143,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 865384fc49bd7f5458d4f825df10775e
-      internalID: -1583226648
+      spriteID: 02b528524a29eea45a4cab3c906ebf52
+      internalID: -1632873772
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: On (32x10)_1
+      name: box_hit_1
       rect:
         serializedVersion: 2
-        x: 32
+        x: 28
         y: 0
-        width: 32
-        height: 10
+        width: 28
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -164,20 +164,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4ed84c3009a5b43408cf43de27ce4d20
-      internalID: -1143335594
+      spriteID: 42a5299cc560d754ea825d6e7f0a0a45
+      internalID: 351561081
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: On (32x10)_2
+      name: box_hit_2
       rect:
         serializedVersion: 2
-        x: 64
+        x: 56
         y: 0
-        width: 32
-        height: 10
+        width: 28
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -185,29 +185,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6db9855c96f5aca48a837209e54e98c7
-      internalID: 324131289
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: On (32x10)_3
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 0
-        width: 32
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c8840df5315f0674ba99ae0ab1053245
-      internalID: -232967725
+      spriteID: 732ecd768f177d149ac41ce2161107f7
+      internalID: -1050903993
       vertices: []
       indices: 
       edges: []
@@ -223,10 +202,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      On (32x10)_0: -1583226648
-      On (32x10)_1: -1143335594
-      On (32x10)_2: 324131289
-      On (32x10)_3: -232967725
+      box_hit_0: -1632873772
+      box_hit_1: 351561081
+      box_hit_2: -1050903993
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

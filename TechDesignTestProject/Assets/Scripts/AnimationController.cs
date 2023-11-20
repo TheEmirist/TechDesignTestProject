@@ -15,10 +15,11 @@ public class AnimationController : MonoBehaviour
     void OnMouseDown()
     {
         StartAnimation();
-        if (!pressSound.Equals(null))
+        if (!pressSound.Equals(null)) //Check if there is a sound attached
         {
-            StartSound();
+            SoundControl();
         }
+        CollectItem();
     }
 
     void StartAnimation()
@@ -26,7 +27,7 @@ public class AnimationController : MonoBehaviour
         anim.SetTrigger("pressed");
     }
 
-    void StartSound()
+    void SoundControl()
     {
         if (!pressSound.isPlaying)
         {
@@ -34,6 +35,14 @@ public class AnimationController : MonoBehaviour
         } else
         {
             pressSound.Stop();
+        }
+    }
+
+    void CollectItem()
+    {
+        if (gameObject.CompareTag("Collectable")) //Destroy object if it is collectable
+        {
+            Destroy(gameObject, 0.3f);
         }
     }
 }

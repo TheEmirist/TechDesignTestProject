@@ -8,13 +8,6 @@ public class ButtonController : MonoBehaviour
 
     void OnMouseDown()
     {
-        if (button.activeSelf)
-        {
-            button.SetActive(false);
-        }
-        else
-        {
-            button.SetActive(true);
-        }
+        button.SetActive(button.activeSelf ^ true); //Update button presence on mouse click
     }
 }
