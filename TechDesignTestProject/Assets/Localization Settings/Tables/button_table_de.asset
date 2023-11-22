@@ -17,7 +17,19 @@ MonoBehaviour:
   m_SharedData: {fileID: 11400000, guid: 5bdc71a1450b524498da67509c3c6fe2, type: 2}
   m_Metadata:
     m_Items: []
-  m_TableData: []
+  m_TableData:
+  - m_Id: 40931565568
+    m_Localized: Neben
+    m_Metadata:
+      m_Items: []
+  - m_Id: 202156417024
+    m_Localized: Zuruck
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31746099126272
+    m_Localized: Gehen
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

@@ -26,6 +26,10 @@ MonoBehaviour:
     m_Localized: Atras
     m_Metadata:
       m_Items: []
+  - m_Id: 31746099126272
+    m_Localized: Dejar
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

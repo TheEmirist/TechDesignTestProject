@@ -23,6 +23,10 @@ MonoBehaviour:
     m_Key: back_key
     m_Metadata:
       m_Items: []
+  - m_Id: 31746099126272
+    m_Key: quit_key
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
